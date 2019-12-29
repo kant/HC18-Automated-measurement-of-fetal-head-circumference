@@ -13,22 +13,22 @@ The following dependencies are needed:
 
 ## How to Use
 
-**1、Preprocess**
-* download ultrasound image data:https://zenodo.org/record/1327317
-* convert annotation image to mask image,you can download here:https://pan.baidu.com/s/1NmmztKR0Omu1fKue7263Sw password：6ax7 
-* data augmentation:run the augtest.py
+**1. Preprocess**
+* download ultrasound image data: https://zenodo.org/record/1327317
+* convert annotation image to mask image, you can download here: https://pan.baidu.com/s/1NmmztKR0Omu1fKue7263Sw password：6ax7 
+* data augmentation: run the augtest.py
 
-**2、HC Segmentation**
+**2. HC Segmentation**
 * the VNet2d model
 
 ![](VNet2d.png) 
 
 * train and predict in the script of vnet2d_train.py and vnet2d_predict.py
 
-**3、trained model can download on here:https://pan.baidu.com/s/1ved3w6Tn4nwnBUDzxW8arw password：r0li**
+**3. trained model can download on here: https://pan.baidu.com/s/1ved3w6Tn4nwnBUDzxW8arw password：r0li**
 
 ## Result
-* loss and accuracy,orange line is first trained,blue is second trained
+* loss and accuracy, orange line is first trained, blue is second trained
 ![](loss.PNG)
 ![](accu.PNG)
 ![](37.bmp)
